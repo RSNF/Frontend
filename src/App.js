@@ -1,11 +1,10 @@
-import { useState } from "react";
-import User from "./pages/User";
+import Routing from "./routes";
 
 function App() {
 
   return (
     <div className="App">
-      <User/>
+      <Routing/>
     </div>
   );
 }
